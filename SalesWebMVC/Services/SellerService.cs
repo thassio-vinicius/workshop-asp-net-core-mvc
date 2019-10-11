@@ -2,10 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using SalesWebMvc.Models;
 using SalesWebMVC.Models;
 
-namespace SalesWebMvc.Services
+namespace SalesWebMVC.Services
 {
     public class SellerService
     {
@@ -19,6 +18,13 @@ namespace SalesWebMvc.Services
         public List<Sellers> FindAll()
         {
             return _context.Seller.ToList();
-        } 
+        }
+        
+        public void Insert(Sellers obj)
+        {
+            _context.Add(obj);
+            _context.SaveChanges();
+        }
+        
     }
 }

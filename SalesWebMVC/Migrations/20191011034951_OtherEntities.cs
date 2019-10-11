@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace SalesWebMvc.Migrations
+namespace SalesWebMVC.Migrations
 {
     public partial class OtherEntities : Migration
     {

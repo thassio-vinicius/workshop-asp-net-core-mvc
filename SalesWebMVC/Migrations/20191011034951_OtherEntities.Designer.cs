@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using SalesWebMVC.Models;
 
-namespace SalesWebMvc.Migrations
+namespace SalesWebMVC.Migrations
 {
     [DbContext(typeof(SalesWebMVCContext))]
     [Migration("20191011034951_OtherEntities")]
